@@ -460,8 +460,8 @@ html {
   .reveal .slides section .section {
     text-transform: uppercase;
     line-height: 4.5vmin;
-    font-size: 0.6em;
-    font-weight: bold; }
+    /*font-size: 0.6em;
+    font-weight: bold;*/ }
   .reveal .slides section:not([class*="color--"]) .section {
     color: #9292A8; }
   .reveal .slides section .content {
@@ -530,7 +530,7 @@ html {
       margin: 0 0 .8em 0;
       width: 20%; }
     .reveal .slides section.title .credit .label {
-      font-size: 60%;
+      /*font-size: 60%;*/
       text-transform: uppercase; }
     .reveal .slides section.title .credit .name {
       font-weight: bold; }
@@ -565,9 +565,6 @@ html {
   color: #9292A8;
   grid-area: description;
   min-height: 4em; }
-
-.reveal .slides section.subsection:not([class*='color--']) .logo, .reveal .slides section.subsection.color--light .logo {
-  background-image: url("../../lib/myplanet/logo/black/mark-outline.svg"); }
 
 .reveal .slides section.subsection.color--midnight .description, .reveal .slides section.subsection.color--ice .description, .reveal .slides section.subsection.color--radiant .description {
   color: #EEEDEF; }
