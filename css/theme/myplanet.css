@@ -75,6 +75,20 @@ body {
   margin: 20px 0;
   line-height: 1.3; }
 
+.machine p {
+  font-size: 24px;
+   margin-bottom: 2em;
+ }
+
+.machine p + p {
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+.details p {
+  font-size: 18px;
+}
+
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
 .reveal video,
@@ -94,7 +108,8 @@ body {
 .reveal ul {
   display: inline-block;
   text-align: left;
-  margin: 0 0 0 1em; }
+  margin: 0 0 0 1em;
+  font-size: 18px;}
 
 .reveal ol {
   list-style-type: decimal; }
@@ -167,13 +182,14 @@ body {
   border-spacing: 0; }
 
 .reveal table th {
-  font-weight: bold; }
+  font-weight: normal;
+font-size: 20px;}
 
 .reveal table th,
 .reveal table td {
   text-align: left;
   padding: 0.2em 0.5em 0.2em 0.5em;
-  border-bottom: 1px solid; }
+  color: #66646B;}
 
 .reveal table th[align="center"],
 .reveal table td[align="center"] {
@@ -554,7 +570,7 @@ html {
 
 .reveal .slides section.subsection .grid-wrapper {
   grid-template-areas: "header" "title" "description";
-  grid-template-rows: 4.5vmin 3fr 1fr; }
+  grid-template-rows: 4.5vmin 1fr 1fr; }
 
 .reveal .slides section.subsection h1 {
   align-self: center;
@@ -591,7 +607,7 @@ html {
 .reveal .slides section.quote cite {
   color: #66646B;
   display: block;
-  font-size: 1rem; }
+  font-size: 1.3rem; }
 
 .reveal .slides section.quote.color--midnight blockquote, .reveal .slides section.quote.color--ice blockquote, .reveal .slides section.quote.color--radiant blockquote {
   color: #FFFFFF; }
@@ -634,15 +650,16 @@ html {
   width: auto; }
 
 .reveal .slides section.team .name {
-  margin: 0.6em 0; }
+  margin: 0.6em 0;
+  font-size: 18px;}
 
 .reveal .slides section.team .role {
   color: #66646B;
-  font-size: 0.8em;
+  font-size: 14px;
   margin: 0.6em 0; }
 
 .reveal .slides section.team .supplement {
-  font-size: .8em;
+  font-size: 14px;
   color: #66646B; }
 
 @media not all and (max-width: 768px) {
